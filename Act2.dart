@@ -1,12 +1,14 @@
 void main() {
-// Calling for a rectangle
-int rectPerimeter = calculatePerimeter(10, 5);
+
+int rectPerimeter = calculatePerimeter(10, 5); // Calling for a rectangle
 print("The perimeter of the rectangle is: $rectPerimeter");
 
-// Calling for square
-int squarePerimeter = calculatePerimeter(7, 0, isSquare: true);
+
+int squarePerimeter = calculatePerimeter(7, 0, isSquare: true); // Calling for square
 print("The perimeter of the square is: $squarePerimeter");
 }
+
+
 
 int calculatePerimeter(int width, int height, {bool isSquare = false}) {
 if (isSquare) {
